@@ -16,5 +16,6 @@ open class MainActivity : AppCompatActivity() {
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.add(binding.flContainer.id, fragment, fragment.javaClass.name)
             .addToBackStack(null).commit()
+
     }
 }
